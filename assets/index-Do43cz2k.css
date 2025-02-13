@@ -1,0 +1,1 @@
+.scrollbar-hidden::-webkit-scrollbar{display:none}.scrollbar-hidden{-ms-overflow-style:none;scrollbar-width:none}@media (max-width:430px){.mobile{height:100vh}}
