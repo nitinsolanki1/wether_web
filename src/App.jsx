@@ -27,7 +27,7 @@ const App = () => {
   };
   const fetchData = async (city) => {
     try {
-      const response = await axios.get(  `http://api.weatherapi.com/v1/current.json?key=8cc02e81781c42dcade180911251102&q=${city}&aqi=yes`);
+      const response = await axios.get(  `https://api.weatherapi.com/v1/current.json?key=8cc02e81781c42dcade180911251102&q=${city}&aqi=yes`);
       await console.log("response=", response.data); // Check full response
       setData(response.data); // Only set if 
       setLoading(false);
