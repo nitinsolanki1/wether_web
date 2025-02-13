@@ -1,0 +1,15 @@
+  /* Add this to your global CSS (e.g., styles.css) */
+  .scrollbar-hidden::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+}
+
+.scrollbar-hidden {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+@media (max-width:430px){
+  .mobile{
+    height: 100vh;
+  }
+}
